@@ -1,5 +1,7 @@
 # project_3-anjuli-jasmine-john-danielle
 
+## Project-3 proposal
+
 The objective of this project is to develop data visualization web application that will have user driven interactions. The project focused on Hydraulic fracturing, or fracking.
 
 The fracking related open databases will be accessed from hydraulic fracturing chemical disclosure registry. 
