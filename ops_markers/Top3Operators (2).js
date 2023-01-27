@@ -37058,13 +37058,13 @@ for (var i = 0; i < wells.length; i++) {
    
   // Conditionals for OperatorName
   var color = "";
-  if (wells[i].OperatorName == "Pioneer Natural Resources") {
+  if (wells[i].OperatorName === "Pioneer Natural Resources") {
     color = "blue";
   }
-  else if (wells[i].OperatorName == "Devon Energy Production Company L. P.") {
+  else if (wells[i].OperatorName === "Devon Energy Production Company L. P.") {
     color = "orange";
   }
-  else if (wells[i].OperatorName == "EOG Resources, Inc.") {
+  else if (wells[i].OperatorName === "EOG Resources, Inc.") {
     color = "purple";
   }
   else {

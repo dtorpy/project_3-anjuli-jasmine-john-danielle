@@ -9,8 +9,8 @@ function createMap(wellcount){
   });
   // Create an overlayMaps object to hold the earthquake layer.
   var basemaps = {
-    "Map": topo,
-    "street": street
+    "Topo": topo,
+    "Street": street
   };
   // Create an overlayMaps object to hold the earthquake layer.
   var overlayMaps = {
@@ -42,7 +42,7 @@ function createMarkers(response) {
   var wellMarkers = [];
 
   // Loop through the wells array.
-  for (var index = 0; index < 2; index++) {
+  for (var index = 0; index < wells.length; index++) {
     var well = wells[index];
 
     // For each well, create a marker, and bind a popup with the Well's name.
@@ -60,6 +60,6 @@ function createMarkers(response) {
 
 // Perform an API call to the Citi well API to get the station information. Call createMarkers when it completes.
 //d3.json("Data/Project3Data.json").then(createMarkers);
-d3.json("Data/Project3Data.json").then(createMarkers);
+d3.json("Data/Texas2012.json").then(createMarkers);
 
 
