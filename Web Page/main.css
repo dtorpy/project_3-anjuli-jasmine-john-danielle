@@ -1,0 +1,131 @@
+body {
+  background-image: url("https://s.yimg.com/os/creatr-uploaded-images/2020-10/b6ee9480-0b20-11eb-bbff-6627e1d4bd87");
+  height: 1250px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbarDropdownMenuLink {
+    color: rgb(0, 0, 0);  
+}
+
+.navbar {
+  max-height: 50px;
+  background-color: rgb(0, 0, 0);
+  color: rgba(14, 14, 14, 0.75);
+}
+.navigation .navbar-brand {
+  color: rgb(2, 13, 15);
+  margin-left: -15px;
+  padding: inherit;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  font-family: cochin;
+}
+.navbar {
+  background-color: rgb(16, 16, 16);
+  font-size: 100px; 
+}
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color: rgb(22, 22, 22);
+}
+.dropdown-item {
+  color: rgba(14, 14, 14, 0.75);
+  margin-left: -15px;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: rgba(71, 128, 14, 0.75);
+}
+
+.nav-link:hover {
+  background-color:rgba(71, 127, 7, 0.75);
+ }
+
+.navbar-brand:hover {
+color: rgb(15, 16, 16);
+}
+a {
+  color: rgb(9, 9, 9);
+  font-size: 15px;
+}
+
+img{
+  width:100%;
+  height:100%;
+}
+.active, .panel:hover {
+  border-color:rgb(18, 19, 19);
+  border-style: solid;
+  
+}
+.vizualization {
+  width:50%;
+  height:50%;
+}
+
+.title {
+  color: rgb(17, 17, 17);
+  font-family: cochin;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+p {
+color: rgb(11, 11, 11);
+font-family: 'segoe ui';
+font-size: 16px;
+}
+
+.box {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+  color: #282727;
+  background-color: rgb(138, 122, 19);
+}
+
+.table {
+  font-size: 15px;
+  border-top-color: rgb(11, 10, 10);
+}
+
+footer {
+background-color: #454545;
+color: rgb(0, 0, 0);
+min-height: 50px;
+font-family: Menlo, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 15px;
+}
+
+@media(max-width: 992px) {
+  .navbar-expand-lg {
+  background-color: #000000;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: rgb(26, 25, 25);
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
+
