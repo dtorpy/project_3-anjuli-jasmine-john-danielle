@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+      <!-- Leaflet JavaScript code -->
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+      <!-- polyfill.io is the library for using newer JavaScript features (such as Object.assign) in older browers. -->
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <!--Plotly Javascript library-->
+    <script src="https://cdn.plot.ly/plotly-2.18.0.min.js"></script>
+    <title>Well Dashboard</title>
+</head>
+<body>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" style="background-color: rgb(237, 235, 235);" href="https://www.fracfocus.org/index.php?p=data-download">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Maps/Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="Topo_Map/static/js/logic.js">Number of Wells in 2012</a>
+                            <a class="dropdown-item" href="Plotly Bar Graph/index(4).html">Top 13 Operators</a>
+                            <a class="dropdown-item" href="ops_markers/index(2).html">Top 3 Operators</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\13126\Project3Data.json">Data Source</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <div class="box" style="padding-bottom: 20px;">
+                    <h1 class="title">Well Data from FracFocus</h1>
+                    <hr>
+                    <img src="Frac.jpg" class="vizualization rounded float-left" style="padding: 10px 10px 30px">
+                    <p> On the other hand, JSON (or JavaScript Object Notation) is a dictionary-like notation that can be used by importing the JSON package in Python. Every record (or row) is saved as a separate dictionary, with the column names as Keys of the dictionary. All of these records as dictionaries are saved in a nested dictionary to compose the entire dataset. It is stored with the extension .json, for example, geeksforgeeks.json.</p>
+                      <br>
+                    <p> On the other hand, JSON (or JavaScript Object Notation) is a dictionary-like notation that can be used by importing the JSON package in Python. Every record (or row) is saved as a separate dictionary, with the column names as Keys of the dictionary. All of these records as dictionaries are saved in a nested dictionary to compose the entire dataset. It is stored with the extension .json, for example, geeksforgeeks.json.</p>
+                      <br>
+                    <p> On the other hand, JSON (or JavaScript Object Notation) is a dictionary-like notation that can be used by importing the JSON package in Python. Every record (or row) is saved as a separate dictionary, with the column names as Keys of the dictionary. All of these records as dictionaries are saved in a nested dictionary to compose the entire dataset. It is stored with the extension .json, for example, geeksforgeeks.json.</p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="box">
+                    <h2 class="title">VISUALIZATIONS</h2>
+                    <hr>
+                    <div class="container">
+                        <div class="row" style="padding-bottom: 70px;">
+                            <div class="col-6">
+                                <div class="title">Number of Wells in 2012</div>
+                                <a href="Topo_Map/static/js/logic.js">
+                                <img class="panel" src="Well.jpg">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <div class="title">Top 13 Operators</div>
+                                <a href="Plotly Bar Graph/index(4).html">
+                                <img class="panel" src="Water.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 70px;">
+                            <div class="col-8">
+                                <div class="title">Top 3 Operators</div>
+                                <a href="ops_markers/index(2).html">
+                                <img class="panel" src="Operator.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer> Anjuli Gairola, Danielle Torpy, John Silberstein, Jasmine Wiley </footer>
+</body>
+</html>
