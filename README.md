@@ -14,4 +14,13 @@ The database from the above source will be extracted, transformed, and then uplo
 * volume of water used for fracing
 * Depth of wells
 
-# Project-2 report
+## Project-3 report
+
+For the data visualization project-3, the database was extracted from [Frac Data](https://www.fracfocus.org/index.php?p=data-download) The data was then downloaded in CSV format. The data was then transformed and uploaded in SQL database. The data was filtered for the year 2012 and State Texas. Further data was transformed to JSON for visualizations. 
+For data visualization dashboard was created. Leaflet was used to create steetmap with topogaphy layers of fracing wells in Texan in 2012. Another streetmap visualization represented top three operators through color coordinated markers. The plotly was used to create a barchart depicting top 13 operators that opened the most wells in 2012 in Texas.  
+It was concluded that 
+* In 2012, the total number of fracing wells was 3705 in Texas.
+* Pioneer was the top operator, with an opening of 314 wells, in 2012 in Texas.
+* Devon Energy and EOG Resources were second and third with 206 and 169 wells, respectively.   
+
+
