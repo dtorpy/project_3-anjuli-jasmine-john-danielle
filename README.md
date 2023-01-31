@@ -21,7 +21,7 @@ For data visualization dashboard was created. Leaflet was used to create steetma
 It was concluded that 
 * There were total of 261 operators in 2012 in Texas. 
 * In 2012, the total number of fracing wells was 3705 in Texas.
-* The top 13 operators represented 50.2% of total wells in 2012 in Texas. Pioneer was the top operator, with an opening of 314 wells.
-** Devon Energy and EOG Resources were second and third with 206 and 169 wells, respectively.   
+* The top 13 operators represented 50.2% of total wells in 2012 in Texas. 
+* Pioneer was the top operator, with an opening of 314 wells.Devon Energy and EOG Resources were second and third with 206 and 169 wells, respectively.   
 
 
